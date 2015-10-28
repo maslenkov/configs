@@ -1,0 +1,12 @@
+[
+  // RubyTest plug-in
+  { "keys": ["super+alt+shift+t"], "command": "run_all_ruby_test",
+      "context": [ { "key": "selector", "operator": "equal",
+         "operand": "source.ruby, source.rspec, text.gherkin.feature"
+                } ]
+  }, // test file
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+
+  { "keys": ["super+alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["super+alt+shift+down"], "command": "select_lines", "args": {"forward": true} }
+]
