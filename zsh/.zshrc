@@ -79,11 +79,11 @@ export PATH="$PATH:/usr/local/mysql/bin"
 # brew
 export PATH="/usr/local/bin:$PATH"
 
-# direnv
-eval "$(direnv hook zsh)"
-
 c() { builtin cd ~/projects/$1; }
 _c() { _files -W ~/projects -/; }
 compdef _c c
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# direnv
+eval "$(direnv hook zsh)"
