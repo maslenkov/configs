@@ -74,6 +74,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|_build\|DS_Store\|git'
 nnoremap <Leader>l :BufExplorer<CR>
 
 set number
+set colorcolumn=80
 
 " improvements for search
 set ignorecase "smartcase does not work without ignorecase
