@@ -1,0 +1,24 @@
+syntax enable
+
+" macvim config(move into separate file)
+set guifont=Monaco:h15
+
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set t_Co=256
+
+set number
+set colorcolumn=80
+
+" improvements for search
+set ignorecase "smartcase does not work without ignorecase
+set smartcase  "be case sensitive when input has a capital letter
+set hlsearch   "hilight seraches by default
+nnoremap <C-l> :nohls<CR>
+
+" fast find and replace
+nnoremap <C-f> :%s//
+
+set backspace=indent,eol,start
