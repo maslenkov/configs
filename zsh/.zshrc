@@ -87,4 +87,4 @@ compdef _c c
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # direnv
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"
