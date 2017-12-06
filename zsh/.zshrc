@@ -73,12 +73,13 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # mysql libmysqlclient fix
-export PATH="$PATH:/usr/local/mysql/bin" 
+export PATH="$PATH:/usr/local/mysql/bin"
 #export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 
 # brew
 export PATH="/usr/local/bin:$PATH"
 
+# c command to cd into projects
 c() { builtin cd ~/projects/$1; }
 _c() { _files -W ~/projects -/; }
 compdef _c c
