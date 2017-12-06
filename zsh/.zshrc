@@ -84,6 +84,9 @@ c() { builtin cd ~/projects/$1; }
 _c() { _files -W ~/projects -/; }
 compdef _c c
 
+# t command to see git tree(alias for zsh glola alias)
+alias t=glola
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # direnv
