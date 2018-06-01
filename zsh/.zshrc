@@ -7,6 +7,19 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell_with_rvm" # my custom theme
 
+# activate zsh-completion
+fpath=(/usr/local/share/zsh-completions $fpath)
+# olso termnial output for zsh-completions
+#You may also need to force rebuild `zcompdump`:
+#
+#  rm -f ~/.zcompdump; compinit
+#
+#Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
+#to load these completions, you may need to run this:
+#
+#  chmod go-w '/usr/local/share'
+
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
