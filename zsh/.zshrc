@@ -110,9 +110,6 @@ alias t=glola
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/Cellar/zsh-history-substring-search/1.0.1/zsh-history-substring-search.zsh
-bindkey '^K' history-substring-search-up
-bindkey '^J' history-substring-search-down
 
 # direnv
 # eval "$(direnv hook zsh)"
