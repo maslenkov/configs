@@ -116,3 +116,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# asdf - programming language version manager
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
