@@ -63,6 +63,7 @@ plugins=(
   git
   osx
   rails
+  bundler
 )
 
 source $ZSH/oh-my-zsh.sh
