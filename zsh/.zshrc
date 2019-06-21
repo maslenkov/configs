@@ -129,3 +129,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # asdf - programming language version manager
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
