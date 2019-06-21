@@ -10,7 +10,7 @@ install basic color scheme
 ```
 git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 ```
-copy config
+link config
 ```
 ln -s PATH_TO/configs/vim/.vimrc ~/.vimrc
 ```
