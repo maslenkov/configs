@@ -1,6 +1,6 @@
 My configs for zsh and sublime text 3
 
-# vim
+## vim
 
 install vundle
 ```
@@ -16,14 +16,14 @@ ln -s PATH_TO/configs/vim/.vimrc ~/.vimrc
 ```
 run vim and run command `VundleInstall` to install other plugins
 
-# zsh
+## zsh
 
 copy config
 ```
 ln -s PATH_TO/configs/zsh/.zshrc ~/.zshrc
 ```
 
-# zsh robbyrussell multyline
+## zsh robbyrussell multyline
 ```
 ln -s PATH_TO/configs/zsh/robbyrussell_custom.zsh-theme ~/.oh-my-zsh/themes/robbyrussell_custom.zsh-theme
 ```
