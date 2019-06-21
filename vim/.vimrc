@@ -48,6 +48,8 @@ Bundle 'skalnik/vim-vroom'
 Bundle 'mattn/emmet-vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'sheerun/vim-polyglot'
+set rtp+=/usr/local/opt/fzf
+Plugin 'junegunn/fzf.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
