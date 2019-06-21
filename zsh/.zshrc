@@ -63,6 +63,8 @@ plugins=(
   osx
   rails
   bundler
+  docker
+  docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -107,6 +109,13 @@ compdef _c c
 
 # t command to see git tree(alias for zsh glola alias)
 alias t=glola
+alias h=glol
+alias dkst="docker stats --format \"table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\""
+alias dka="docker attach"
+alias dkeit="docker exec -it"
+alias dsstart="docker-sync start"
+alias dsstop="docker-sync stop"
+alias dssync="docker-sync sync"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
