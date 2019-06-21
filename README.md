@@ -24,11 +24,14 @@ ln -s PATH_TO/configs/zsh/.zshrc ~/.zshrc
 ```
 
 ## zsh robbyrussell multyline
+
 ```
 ln -s PATH_TO/configs/zsh/robbyrussell_custom.zsh-theme ~/.oh-my-zsh/themes/robbyrussell_custom.zsh-theme
 ```
 
 ## git
 
+```
 ln -s PATH_TO/configs/git/.gitconfig ~/.gitconfig
 ln -s PATH_TO/configs/git/.global-gitignore ~/.gitignore
+```
