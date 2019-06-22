@@ -44,3 +44,13 @@ ln -s PATH_TO/configs/zsh/robbyrussell_custom.zsh-theme ~/.oh-my-zsh/themes/robb
 ln -s PATH_TO/configs/git/.gitconfig ~/.gitconfig
 ln -s PATH_TO/configs/git/.global-gitignore ~/.gitignore
 ```
+
+## sublime
+
+```
+ln -s PATH_TO/configs/sublime-text-3/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+```
+
+### requirements
+
+ayu theme (install it through Package Controll)
