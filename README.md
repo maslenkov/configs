@@ -9,15 +9,19 @@ ln -s PATH_TO/configs/vim/.vimrc ~/.vimrc
 
 ### requirements
 
-install vundle
+* install vundle
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-install basic color scheme
+* install basic color scheme
 ```
 git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 ```
-run vim and run command `VundleInstall` to install other plugins
+* install [fzf](https://github.com/junegunn/fzf#using-git)
+* install [ag](https://github.com/ggreer/the_silver_searcher#installing)
+* run vim and run command `VundleInstall` to install other plugins
+* if `Ag` doesn't work - make sure that [fzf-pluging](https://github.com/junegunn/fzf#installation)
+installed correctly (it has different instructions for setup through homebrew and direct installation from git)
 
 ## zsh
 
