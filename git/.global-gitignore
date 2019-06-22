@@ -4,3 +4,4 @@
 config/initializers/dd.rb
 custom_plan.rb
 zeus.json
+.tool-versions
