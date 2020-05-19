@@ -29,6 +29,7 @@ installed correctly (it has different instructions for setup through homebrew an
 
 * oh-my-zsh
 * [fzf](https://github.com/junegunn/fzf#using-git)
+* [asdf-vm](https://asdf-vm.com/#/core-manage-asdf-vm)
 * custom robbyrussell multyline theme
 
 copy config
