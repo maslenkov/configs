@@ -110,7 +110,8 @@ compdef _c c
 # t command to see git tree(alias for zsh glola alias)
 alias t=glola
 alias h=glol
-alias dkst="docker stats --format \"table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\""
+alias dkstats="docker stats --format \"table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\""
+alias dkst="docker stats --format \"table {{.Name}}\t{{.CPUPerc}}\""
 alias dka="docker attach"
 alias dkeit="docker exec -it"
 alias dsstart="docker-sync start"
