@@ -1,7 +1,7 @@
 syntax enable
 
 " macvim config(move into separate file)
-set guifont=Monaco:h15
+" set guifont=Monaco:h15
 
 set smartindent
 set tabstop=2
